@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    background-image: url("img/minion.png");
+    font-family: 'Luckiest Guy', cursive;
+    max-width: 700px;
+    display: flex;
+    direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: auto;
+}
+
+#txt-input{
+    display: block;
+    max-width: 400px;
+    text-align: justify;
+    border: 3px solid #fce029;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 28px;
+    margin: auto;
+}
+
+#txt-output{
+    display: block;
+    max-width: 400px;
+    height: 400;
+    text-align: justify;
+    border: 3px solid #fce029;
+    border-radius: 1rem;
+    padding: 1rem;
+     font-size: 28px;
+    margin: auto;
+     margin-bottom: 4rem; 
+ }
+
+#btn-translate{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 5rem;
+    font-size: 22px;
+    font-weight: bolder;
+    background : #fce029;
+    border-radius: 1rem;
+}
+.container{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    border: solid 3px black;
+    border-radius: 1rem;
+    background-color:#4080bf;
+}
+
+h1{
+    color: yellow;
+    font-size: 60px;
+    margin: 1rem 2rem 2rem 2rem;
+    text-align: center;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+} 
+
+@media (max-width: 500px){
+    body{
+        background: black;
+    }
+    .container{
+        background-image: url("img/minion2.png");
+        margin: auto;
+        margin-top: 2rem;
+    }
+    h1{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    #txt-output{
+        border: 3px solid black;
+    }
+
+    #txt-input{
+        border: 3px solid black;
+    }
+}
