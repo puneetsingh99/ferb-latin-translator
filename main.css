@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 body{
-    background-image: url("img/minion.png");
+    background-image: url("img/ferb6.jpg");
     font-family: 'Luckiest Guy', cursive;
     max-width: 700px;
     display: flex;
@@ -15,7 +15,7 @@ body{
     display: block;
     max-width: 400px;
     text-align: justify;
-    border: 3px solid #fce029;
+    border: 3px solid rgb(163, 57, 233);
     border-radius: 1rem;
     padding: 1rem;
     font-size: 28px;
@@ -27,7 +27,7 @@ body{
     max-width: 400px;
     height: 400;
     text-align: justify;
-    border: 3px solid #fce029;
+    border: 3px solid rgb(163, 57, 233);
     border-radius: 1rem;
     padding: 1rem;
      font-size: 28px;
@@ -51,13 +51,14 @@ body{
     padding-bottom: 2rem;
     margin: auto;
     margin-top: 2.5rem;
-    border: solid 3px black;
+    border: solid 3px rgb(163, 57, 233);
+    /* background-image: url("img/ferb7.png"); */
     border-radius: 1rem;
-    background-color:#4080bf;
+    background-color: white;
 }
 
 h1{
-    color: yellow;
+    color: 	#00FF00;
     font-size: 60px;
     margin: 1rem 2rem 2rem 2rem;
     text-align: center;
@@ -65,11 +66,8 @@ h1{
 } 
 
 @media (max-width: 500px){
-    body{
-        background: black;
-    }
     .container{
-        background-image: url("img/minion2.png");
+        background-image: url("img/ferb5.jpg");
         margin: auto;
         margin-top: 2rem;
     }
@@ -79,10 +77,10 @@ h1{
     }
 
     #txt-output{
-        border: 3px solid black;
+        border: 3px solid rgb(163, 57, 233);
     }
 
     #txt-input{
-        border: 3px solid black;
+        border: 3px solid rgb(163, 57, 233);
     }
 }
